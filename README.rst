@@ -1,4 +1,6 @@
-# SimpleKMP
+=========
+SimpleKMP
+=========
 Simple KMP Algorithm Implementation
 
 What Is KMP?
@@ -9,10 +11,10 @@ How To Use SimpleKMP Class?
 ===========================
 Simply create an object of class ``SimpleKMP`` like below:
 
-  >>> obj = SimpleKMP([string], [pattern])
+  obj = SimpleKMP([string], [pattern])
   
 Then you can use ``get_temporary_array`` function and ``find`` like below:
 
-  >>> get_temporary_array = obj.get_temporary_array()
+  get_temporary_array = obj.get_temporary_array()
   
-found_index = obj.find()
+  found_index = obj.find()
